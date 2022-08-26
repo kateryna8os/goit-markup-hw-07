@@ -1,16 +1,16 @@
-.features-list {
+.features__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.features-item {
+.features__item {
   width: 270px;
-  .features-list .features-item + & {
+  .features__list .features__item + & {
     margin-left: 30px;
   }
 }
 
-.features-icon {
+.features__icon {
   display: flex;
   width: 270px;
   height: 120px;
@@ -19,11 +19,11 @@
   justify-content: center;
 }
 
-// .features-list .features-item + .features-item {
+// .features__list .features__item + .features__item {
 //   margin-left: 30px;
 // }
 
-.features-skills-title {
+.features__skills-title {
   margin-top: 30px;
   margin-bottom: 10px;
 
@@ -34,7 +34,7 @@
   letter-spacing: 0.03em;
 }
 
-.features-skills-text {
+.features__skills-text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;

@@ -5,7 +5,7 @@
 .navigation__list {
   display: flex;
   margin-left: 93px;
-  & .container__item + .container__item {
+  & .item + .item {
     margin-left: 50px;
   }
   & li:last-child {
@@ -13,7 +13,7 @@
   }
 }
 
-// .navigation__list .container__item + .container__item {
+// .navigation__list .item + .item {
 //   margin-left: 50px;
 // }
 
@@ -24,12 +24,12 @@
 .contact {
   display: flex;
   margin-left: auto;
-  & .container__item + .container__item {
+  & .item + .item {
     margin-left: 50px;
   }
 }
 
-// .contact .container__item + .container__item {
+// .contact .item + .item {
 //   margin-left: 50px;
 // }
 
