@@ -17,13 +17,13 @@
 
 .employment-list {
   display: flex;
+  & .employment-item + .employment-item {
+    margin-left: 30px;
+  }
 }
 
 .employment-item {
   width: 370px;
-  .employment-list .employment-item + & {
-    margin-left: 30px;
-  }
 }
 
 // .employment-list .employment-item + .employment-item {
